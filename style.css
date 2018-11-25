@@ -1,0 +1,87 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+/* 	select language
+	font-family: 'Noto Sans SC', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
+*/
+	font-weight: 300;
+	background-color: #4C586A;
+}
+
+.regular { font-weight: 300 }
+.bold { font-weight: 700 }
+
+.pageContainer{
+	max-width: 1000px;
+	min-width: 300px;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.header{
+	color: #F5F4F2;
+	text-decoration: none;
+	font-size: 3em;
+	margin: 2.5em/*up*/ 1.5em 0.5em/*down*/ 1.5em;
+}
+
+/* page blocks */
+
+.contentBlock{
+	margin: 1em 10em 1em 10em;
+	padding: 1.7em 2em 1em 2em;
+	border-radius:3em;
+	background-color: #F5F4F2;
+}
+
+.blockTitle{
+	margin: 0/*up*/ 0 0/*down*/ 0;
+	font-size: 1.75em;
+	color: #4C586A;
+}
+
+.contentBlock p{
+	color: #4C586A;
+	line-height: 1.2em;
+}
+
+.contentBlock a{
+	color: #CA6A76;
+	text-decoration: none;
+}
+
+.contentBlock a:hover {
+	color: #4C586A;
+}
+
+.contentBlock li {
+	color: #4C586A;
+	line-height: 1.5em;
+}
+
+i {
+	margin: 0.3em/*up*/ 0.3em/*right*/ 0.3em/*down*/ 0.3em /*left*/;
+	font-size: 3em;
+}
+
+/* sub block (img) */
+
+.subBlock{
+	overflow: hidden;
+}
+
+.subBlock img{
+	max-width: 100px;
+	height: auto;
+	float: left;
+	margin: 1em /*up*/ 1em /*right*/ 1em 0;
+}
+
+/* footer */
+
+.footer{
+	text-align: center;
+	color: #F5F4F2;
+	margin: 0/*up*/ 0 1.5em/*down*/ 0;
+}
