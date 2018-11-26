@@ -23,8 +23,9 @@ body {
 	color: #F5F4F2;
 	text-decoration: none;
 	font-size: 3em;
-	margin: 2.5em/*up*/ 1.5em 0.5em/*down*/ 1.5em;
+	margin: 2em/*up*/ 1.5em 0.5em/*down*/ 1.5em;
 }
+
 
 /* page blocks */
 
@@ -37,13 +38,18 @@ body {
 
 .blockTitle{
 	margin: 0/*up*/ 0 0/*down*/ 0;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	color: #4C586A;
 }
 
 .contentBlock p{
 	color: #4C586A;
 	line-height: 1.2em;
+}
+
+.contentBlock p>i {
+	margin: 0/*up*/ 0.3em/*right*/ 0/*down*/ 0 /*left*/;
+	font-size: 0.9em;
 }
 
 .contentBlock a{
@@ -60,8 +66,8 @@ body {
 	line-height: 1.5em;
 }
 
-i {
-	margin: 0.3em/*up*/ 0.3em/*right*/ 0.3em/*down*/ 0.3em /*left*/;
+.contentBlock a>i {
+	margin: 0/*up*/ 0.3em/*right*/ 0.2em/*down*/ 0.3em /*left*/;
 	font-size: 3em;
 }
 
