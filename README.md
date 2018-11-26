@@ -1,4 +1,4 @@
-# open about myself  
+# open profile  
 
 Supports English, Chinese (simplified) and Japanese.  
   
